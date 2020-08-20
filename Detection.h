@@ -55,7 +55,7 @@ private:
 	vector<int> m_classIds;	//类别id
 	vector<int> m_perfIndx;	//非极大阈值处理后边界框的下标
 	//检测超参数
-    int m_inpWidth;			//网络输入图像宽度
+	int m_inpWidth;			//网络输入图像宽度
 	int m_inpHeight;		//网络输入图像高度
 	float m_confThro;		//置信度阈值
 	float m_NMSThro;		//NMS非极大抑制阈值
